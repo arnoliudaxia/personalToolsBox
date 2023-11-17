@@ -1,2 +1,2 @@
 [deploy]
-startCommand = "python -m streamlit run index.py"
+startCommand = "python -m streamlit run index.py --server.port $PORT"
