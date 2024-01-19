@@ -22,4 +22,4 @@ with Convert2Notion:
             else:
                 output+="$"+ss[i]+"$"
 
-        st.text_area("chatgptConvert2notionOuput",value=output)
+        st.text_area("chatgptConvert2notionOuput",value=output,height=2000)
